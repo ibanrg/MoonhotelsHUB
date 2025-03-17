@@ -1,0 +1,29 @@
+{
+	"info": {
+		"_postman_id": "bfd3a788-4591-408e-b910-c055a8a0b2fc",
+		"name": "MoonhotelsHUB (FDSA)",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "8968206"
+	},
+	"item": [
+		{
+			"name": "Search",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/room",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"room"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
